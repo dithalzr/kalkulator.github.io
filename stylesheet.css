@@ -51,3 +51,16 @@ button:hover {
 .operator:hover, .equal-sign:hover {
 	background-color: darkorange;
 }
+
+@media(max-width: 670px) {
+	.calculator {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	button {
+		font-size: 30px;
+	}
+	.calculator-screen {
+
+	}
+}
